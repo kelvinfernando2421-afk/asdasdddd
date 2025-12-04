@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cafe House Binjai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="The Cafe House Binjai">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Selamat Datang di The Cafe House Binjai</h1>
+        <p>Tempat Nongkrong Nyaman & Cozy di Binjai</p>
+        <a href="#menu" class="cta-button">Lihat Menu</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>The Cafe House Binjai adalah tempat yang sempurna untuk menikmati kopi enak, makanan lezat, dan suasana yang nyaman. Kami menyediakan tempat yang cocok untuk hangout, bekerja, atau sekedar bersantai.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Menu Kami</h2>
+        <div class="menu-item">
+            <img src="kopi.jpg" alt="Kopi Spesial">
+            <h3>Kopi Binjai</h3>
+            <p>Rasakan cita rasa kopi khas Binjai dengan pilihan biji kopi terbaik.</p>
+        </div>
+        <div class="menu-item">
+            <img src="makanan.jpg" alt="Makanan Ringan">
+            <h3>Kue & Makanan Ringan</h3>
+            <p>Nikmati berbagai pilihan kue dan makanan ringan yang cocok untuk teman kopi.</p>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="galeri">
+        <h2>Galeri Kami</h2>
+        <div class="gallery">
+            <img src="interior.jpg" alt="Interior Cafe">
+            <img src="event.jpg" alt="Event di Cafe">
+            <img src="makanan.jpg" alt="Makanan dan Minuman">
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jl. XYZ, Binjai</p>
+        <p>Telepon: +62 123 456 789</p>
+        <p>Email: info@thecafehousebinjai.com</p>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.367290267695!2d98.48729261603589!3d3.595465997953433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313ac99e2c016f%3A0xc9029c9c8c6ac123!2sThe%20Cafe%20House%20Binjai!5e0!3m2!1sid!2sid!4v1647107420973!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on:</p>
+        <a href="https://www.instagram.com/thecafehousebinjai">Instagram</a> |
+        <a href="https://www.facebook.com/thecafehousebinjai">Facebook</a>
+        <p>&copy; 2025 The Cafe House Binjai. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
